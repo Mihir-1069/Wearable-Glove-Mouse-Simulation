@@ -72,16 +72,28 @@ Raw IMU Simulator / Hardware Stream
 
 ## 3. Installation
 
-Ensure Python 3.9+ is installed. Clone or extract the project directory:
+Ensure Python 3.9 or newer is installed. Python 3.14 is currently tested for
+this project. From the repository root, install or update the Python
+dependencies:
 
 ```bash
-cd c:/Users/mihir/Desktop/gm/wearable_mouse
-pip install -r requirements.txt
+cd Wearable-Glove-Mouse-Simulation
+python -m pip install --upgrade -r wearable_mouse/requirements.txt
 ```
+
+The application uses Tkinter for its dashboard. On Linux, install the
+distribution's Tkinter package if it is not already available (for example,
+`python3-tk` on Debian/Ubuntu).
 
 ---
 
 ## 4. How to Run
+
+Run application commands from the `wearable_mouse/` directory:
+
+```bash
+cd wearable_mouse
+```
 
 ### Interactive GUI Dashboard
 
@@ -134,11 +146,14 @@ Generates `rest_movement_experiment_results.csv` evaluating:
 
 ### Running Unit & Pipeline Tests
 
-Run pytest suite:
+Run the complete pytest suite from the repository root:
 
 ```bash
-python -m pytest tests/ -v
+cd ..
+python -m pytest tests -q
 ```
+
+The current test suite contains 178 tests.
 
 ---
 
@@ -226,6 +241,15 @@ Sampling rate: **100 Hz** (10 ms interval).
   - `STATUS,PAUSE_ENABLED` / `STATUS,PAUSE_DISABLED`
 
 ### Launch Commands for HITL Simulation
+
+The Wokwi firmware requires PlatformIO. Install PlatformIO separately before
+building or running the firmware:
+
+```bash
+cd ..
+python -m pip install --upgrade platformio
+pio run -d wokwi/firmware
+```
 
 1. **Run Python with Serial Source (Wokwi or Physical ESP32)**:
    ```bash
