@@ -1,0 +1,5 @@
+condition_code,condition_name,total_trials,successful_selections,wrong_selections,misclicks,success_rate,wrong_target_rate,misclick_rate,avg_acquisition_time_sec,total_path_length_pixels,corrective_movements_count
+A,Condition A: Raw / Baseline,20,20,0,0,100.0,0.0,0.0,1.5,14319.0,7
+B,Condition B: Filtered Cursor,20,20,0,0,100.0,0.0,0.0,1.5,9671.8,0
+C,Condition C: Filtered + Uncertainty Tolerance,20,20,0,0,100.0,0.0,0.0,1.5,9671.8,0
+D,Condition D: Filtered + Uncertainty + Snapping,20,18,2,2,90.0,10.0,10.0,1.6,9470.6,0

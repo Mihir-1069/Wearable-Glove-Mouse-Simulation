@@ -1,0 +1,81 @@
+scenario_id,scenario_name,condition_code,condition_name,successful_acquisition,wrong_target_acquisition,missed_target,acquisition_time_sec,corrective_movements,cursor_path_length,uncertainty_radius,confidence_score,ambiguity_state,average_friction_factor,minimum_gain_reached
+1,Large Target + Low Uncertainty,B,Condition B: Filtered Cursor,True,False,False,1.8,0,654.9,15.6,0.994,False,0.0,1.0
+1,Large Target + Low Uncertainty,C,Condition C: Filtered + Uncertainty Tolerance,True,False,False,1.8,0,654.9,15.6,0.994,False,0.0,1.0
+1,Large Target + Low Uncertainty,D,Condition D: Filtered + Uncertainty + Snapping,True,False,False,1.8,0,667.1,15.6,0.994,False,0.0,1.0
+1,Large Target + Low Uncertainty,E,Condition E: Filtered + Uncertainty + Friction,True,False,False,1.8,0,631.4,15.6,0.995,False,0.615,0.25
+2,Large Target + High Uncertainty,B,Condition B: Filtered Cursor,True,False,False,1.8,0,688.1,21.6,0.937,False,0.0,1.0
+2,Large Target + High Uncertainty,C,Condition C: Filtered + Uncertainty Tolerance,True,False,False,1.8,0,688.1,21.6,0.937,False,0.0,1.0
+2,Large Target + High Uncertainty,D,Condition D: Filtered + Uncertainty + Snapping,True,False,False,1.8,0,690.3,21.6,0.937,False,0.0,1.0
+2,Large Target + High Uncertainty,E,Condition E: Filtered + Uncertainty + Friction,True,False,False,1.8,0,637.9,21.7,0.936,False,0.566,0.25
+3,Small Target + Low Uncertainty,B,Condition B: Filtered Cursor,True,False,False,1.8,0,657.5,15.2,0.998,False,0.0,1.0
+3,Small Target + Low Uncertainty,C,Condition C: Filtered + Uncertainty Tolerance,True,False,False,1.8,0,657.5,15.2,0.998,False,0.0,1.0
+3,Small Target + Low Uncertainty,D,Condition D: Filtered + Uncertainty + Snapping,True,False,False,1.8,0,663.6,15.2,0.998,False,0.0,1.0
+3,Small Target + Low Uncertainty,E,Condition E: Filtered + Uncertainty + Friction,True,False,False,1.8,0,641.5,15.2,0.998,False,0.59,0.25
+4,Small Target + High Uncertainty,B,Condition B: Filtered Cursor,True,False,False,1.8,0,680.4,21.3,0.94,False,0.0,1.0
+4,Small Target + High Uncertainty,C,Condition C: Filtered + Uncertainty Tolerance,True,False,False,1.8,0,680.4,21.3,0.94,False,0.0,1.0
+4,Small Target + High Uncertainty,D,Condition D: Filtered + Uncertainty + Snapping,True,False,False,1.8,0,682.8,21.3,0.94,False,0.0,1.0
+4,Small Target + High Uncertainty,E,Condition E: Filtered + Uncertainty + Friction,True,False,False,1.8,0,644.7,21.3,0.94,False,0.497,0.25
+5,Two Nearby Targets,B,Condition B: Filtered Cursor,True,False,False,1.8,0,550.0,21.8,0.935,False,0.0,1.0
+5,Two Nearby Targets,C,Condition C: Filtered + Uncertainty Tolerance,True,False,False,1.8,0,550.0,21.8,0.935,False,0.0,1.0
+5,Two Nearby Targets,D,Condition D: Filtered + Uncertainty + Snapping,True,False,False,1.8,0,560.8,21.8,0.935,False,0.0,1.0
+5,Two Nearby Targets,E,Condition E: Filtered + Uncertainty + Friction,True,False,False,1.8,0,514.1,21.9,0.935,False,0.532,0.25
+6,Two Widely Separated Targets,B,Condition B: Filtered Cursor,True,False,False,1.8,0,71.6,19.4,0.958,False,0.0,1.0
+6,Two Widely Separated Targets,C,Condition C: Filtered + Uncertainty Tolerance,True,False,False,1.8,0,71.6,19.4,0.958,False,0.0,1.0
+6,Two Widely Separated Targets,D,Condition D: Filtered + Uncertainty + Snapping,True,False,False,1.8,0,69.5,19.5,0.958,False,0.0,1.0
+6,Two Widely Separated Targets,E,Condition E: Filtered + Uncertainty + Friction,True,False,False,1.8,0,38.9,19.5,0.957,False,0.671,0.25
+7,Cursor Approaching Target Slowly,B,Condition B: Filtered Cursor,True,False,False,3.8,0,644.6,16.7,0.983,False,0.0,1.0
+7,Cursor Approaching Target Slowly,C,Condition C: Filtered + Uncertainty Tolerance,True,False,False,3.8,0,644.6,16.7,0.983,False,0.0,1.0
+7,Cursor Approaching Target Slowly,D,Condition D: Filtered + Uncertainty + Snapping,True,False,False,3.8,0,662.9,16.7,0.984,False,0.0,1.0
+7,Cursor Approaching Target Slowly,E,Condition E: Filtered + Uncertainty + Friction,True,False,False,3.8,0,602.7,16.9,0.982,False,0.465,0.25
+8,Cursor Approaching Target Rapidly,B,Condition B: Filtered Cursor,True,False,False,1.3,0,917.6,16.9,0.982,False,0.0,1.0
+8,Cursor Approaching Target Rapidly,C,Condition C: Filtered + Uncertainty Tolerance,True,False,False,1.3,0,917.6,16.9,0.982,False,0.0,1.0
+8,Cursor Approaching Target Rapidly,D,Condition D: Filtered + Uncertainty + Snapping,True,False,False,1.3,0,741.0,16.9,0.982,False,0.0,1.0
+8,Cursor Approaching Target Rapidly,E,Condition E: Filtered + Uncertainty + Friction,True,False,False,1.3,0,905.6,16.9,0.982,False,0.442,0.25
+9,Tremor Near Target Edge,B,Condition B: Filtered Cursor,True,False,False,1.8,0,683.8,19.1,0.961,False,0.0,1.0
+9,Tremor Near Target Edge,C,Condition C: Filtered + Uncertainty Tolerance,True,False,False,1.8,0,683.8,19.1,0.961,False,0.0,1.0
+9,Tremor Near Target Edge,D,Condition D: Filtered + Uncertainty + Snapping,True,False,False,1.8,0,685.5,19.1,0.961,False,0.0,1.0
+9,Tremor Near Target Edge,E,Condition E: Filtered + Uncertainty + Friction,True,False,False,1.8,0,642.2,19.1,0.961,False,0.521,0.25
+10,High Sensor Noise Near Target Edge,B,Condition B: Filtered Cursor,True,False,False,1.8,0,677.1,24.8,0.907,False,0.0,1.0
+10,High Sensor Noise Near Target Edge,C,Condition C: Filtered + Uncertainty Tolerance,True,False,False,1.8,0,677.1,24.8,0.907,False,0.0,1.0
+10,High Sensor Noise Near Target Edge,D,Condition D: Filtered + Uncertainty + Snapping,True,False,False,1.8,0,676.8,24.8,0.907,False,0.0,1.0
+10,High Sensor Noise Near Target Edge,E,Condition E: Filtered + Uncertainty + Friction,True,False,False,1.8,0,641.7,24.9,0.906,False,0.569,0.25
+11,Slow approach to large target,B,Condition B: Filtered Cursor,True,False,False,3.8,0,648.1,16.6,0.985,False,0.0,1.0
+11,Slow approach to large target,C,Condition C: Filtered + Uncertainty Tolerance,True,False,False,3.8,0,648.1,16.6,0.985,False,0.0,1.0
+11,Slow approach to large target,D,Condition D: Filtered + Uncertainty + Snapping,True,False,False,3.8,0,662.9,16.6,0.985,False,0.0,1.0
+11,Slow approach to large target,E,Condition E: Filtered + Uncertainty + Friction,True,False,False,3.8,0,586.0,16.5,0.986,False,0.537,0.25
+12,Slow approach to small target,B,Condition B: Filtered Cursor,True,False,False,3.8,0,649.4,16.9,0.981,False,0.0,1.0
+12,Slow approach to small target,C,Condition C: Filtered + Uncertainty Tolerance,True,False,False,3.8,0,649.4,16.9,0.981,False,0.0,1.0
+12,Slow approach to small target,D,Condition D: Filtered + Uncertainty + Snapping,True,False,False,3.8,0,662.0,17.0,0.981,False,0.0,1.0
+12,Slow approach to small target,E,Condition E: Filtered + Uncertainty + Friction,False,False,True,3.8,0,625.2,16.9,0.981,False,0.364,0.25
+13,Fast approach to small target,B,Condition B: Filtered Cursor,False,False,True,1.3,0,902.6,18.1,0.97,False,0.0,1.0
+13,Fast approach to small target,C,Condition C: Filtered + Uncertainty Tolerance,True,False,False,1.3,0,902.6,18.1,0.97,False,0.0,1.0
+13,Fast approach to small target,D,Condition D: Filtered + Uncertainty + Snapping,True,False,False,1.3,0,758.1,18.1,0.97,False,0.0,1.0
+13,Fast approach to small target,E,Condition E: Filtered + Uncertainty + Friction,False,False,True,1.3,0,889.6,18.1,0.97,False,0.28,0.25
+14,High tremor near target,B,Condition B: Filtered Cursor,True,False,False,1.8,0,691.7,21.3,0.94,False,0.0,1.0
+14,High tremor near target,C,Condition C: Filtered + Uncertainty Tolerance,True,False,False,1.8,0,691.7,21.3,0.94,False,0.0,1.0
+14,High tremor near target,D,Condition D: Filtered + Uncertainty + Snapping,True,False,False,1.8,0,692.2,21.4,0.939,False,0.0,1.0
+14,High tremor near target,E,Condition E: Filtered + Uncertainty + Friction,True,False,False,1.8,0,645.2,21.4,0.939,False,0.56,0.25
+15,High uncertainty near target,B,Condition B: Filtered Cursor,True,False,False,1.8,0,690.4,21.9,0.935,False,0.0,1.0
+15,High uncertainty near target,C,Condition C: Filtered + Uncertainty Tolerance,True,False,False,1.8,0,690.4,21.9,0.935,False,0.0,1.0
+15,High uncertainty near target,D,Condition D: Filtered + Uncertainty + Snapping,True,False,False,1.8,0,688.2,21.9,0.935,False,0.0,1.0
+15,High uncertainty near target,E,Condition E: Filtered + Uncertainty + Friction,True,False,False,1.8,0,644.7,21.9,0.934,False,0.582,0.25
+16,Two nearby targets - approach A,B,Condition B: Filtered Cursor,True,False,False,1.8,0,544.7,19.7,0.955,False,0.0,1.0
+16,Two nearby targets - approach A,C,Condition C: Filtered + Uncertainty Tolerance,True,False,False,1.8,0,544.7,19.7,0.955,False,0.0,1.0
+16,Two nearby targets - approach A,D,Condition D: Filtered + Uncertainty + Snapping,True,False,False,1.8,0,562.3,19.7,0.955,False,0.0,1.0
+16,Two nearby targets - approach A,E,Condition E: Filtered + Uncertainty + Friction,True,False,False,1.8,0,512.7,19.7,0.955,False,0.534,0.25
+17,Two nearby targets - approach B,B,Condition B: Filtered Cursor,True,False,False,1.8,0,672.7,20.9,0.944,False,0.0,1.0
+17,Two nearby targets - approach B,C,Condition C: Filtered + Uncertainty Tolerance,True,False,False,1.8,0,672.7,20.9,0.944,False,0.0,1.0
+17,Two nearby targets - approach B,D,Condition D: Filtered + Uncertainty + Snapping,True,False,False,1.8,0,671.8,20.9,0.944,False,0.0,1.0
+17,Two nearby targets - approach B,E,Condition E: Filtered + Uncertainty + Friction,True,False,False,1.8,0,634.9,20.9,0.944,False,0.586,0.25
+18,Cursor moving away from target,B,Condition B: Filtered Cursor,True,False,False,1.8,0,906.1,16.9,0.982,False,0.0,1.0
+18,Cursor moving away from target,C,Condition C: Filtered + Uncertainty Tolerance,True,False,False,1.8,0,906.1,16.9,0.982,False,0.0,1.0
+18,Cursor moving away from target,D,Condition D: Filtered + Uncertainty + Snapping,True,False,False,1.8,0,905.9,16.9,0.982,False,0.0,1.0
+18,Cursor moving away from target,E,Condition E: Filtered + Uncertainty + Friction,True,False,False,1.8,0,906.0,16.9,0.982,False,0.004,0.25
+19,Cursor crossing target without selecting,B,Condition B: Filtered Cursor,True,False,False,1.3,0,1681.3,16.6,0.985,False,0.0,1.0
+19,Cursor crossing target without selecting,C,Condition C: Filtered + Uncertainty Tolerance,True,False,False,1.3,0,1681.3,16.6,0.985,False,0.0,1.0
+19,Cursor crossing target without selecting,D,Condition D: Filtered + Uncertainty + Snapping,True,False,False,1.3,0,1681.0,16.6,0.985,False,0.0,1.0
+19,Cursor crossing target without selecting,E,Condition E: Filtered + Uncertainty + Friction,True,False,False,1.3,0,1681.3,16.6,0.985,False,0.002,0.931
+20,Rapid movement across dense toolbar,B,Condition B: Filtered Cursor,True,False,False,1.3,0,406.6,18.5,0.967,False,0.0,1.0
+20,Rapid movement across dense toolbar,C,Condition C: Filtered + Uncertainty Tolerance,True,False,False,1.3,0,406.6,18.5,0.967,False,0.0,1.0
+20,Rapid movement across dense toolbar,D,Condition D: Filtered + Uncertainty + Snapping,True,False,False,1.3,0,359.4,18.5,0.967,False,0.0,1.0
+20,Rapid movement across dense toolbar,E,Condition E: Filtered + Uncertainty + Friction,True,False,False,1.3,0,338.6,18.5,0.967,False,0.325,0.25

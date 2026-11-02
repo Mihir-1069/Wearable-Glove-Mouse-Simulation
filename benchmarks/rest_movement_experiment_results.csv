@@ -1,0 +1,6 @@
+condition_code,condition_name,false_cursor_movement_px,intentional_detection_rate_pct,cursor_path_length_px,movement_latency_sec,missed_intentional_movements,false_movements_count,transition_jumps_px
+A,Condition A: REST without Movement Suppression,6.34,100.0,959.2,0.0,0,6,343.53
+B,Condition B: REST with Low-Pass Filtering,6.34,100.0,959.2,0.0,0,1,343.53
+C,Condition C: REST + Deadzone/Hysteresis,0.0,96.7,903.5,0.02,2,0,0.0
+D,Condition D: REST + Deadzone/Hysteresis + Uncertainty,0.0,96.7,903.5,0.02,2,0,0.0
+E,Condition E: REST + Complete Final Pipeline (E+C),0.0,96.7,903.5,0.02,2,0,0.0

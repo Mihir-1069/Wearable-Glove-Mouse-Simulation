@@ -1,0 +1,131 @@
+{
+  "default_category": "GENERAL",
+  "default_profile": "general_default",
+  "app_mappings": {
+    "chrome.exe": "browser_profile",
+    "msedge.exe": "browser_profile",
+    "firefox.exe": "browser_profile",
+    "powerpnt.exe": "presentation_profile",
+    "keynote.exe": "presentation_profile",
+    "photoshop.exe": "creative_profile",
+    "blender.exe": "creative_profile",
+    "code.exe": "productivity_profile",
+    "devenv.exe": "productivity_profile",
+    "vlc.exe": "media_profile",
+    "spotify.exe": "media_profile"
+  },
+  "category_defaults": {
+    "GENERAL": "general_default",
+    "BROWSER": "browser_profile",
+    "PRESENTATION": "presentation_profile",
+    "CREATIVE": "creative_profile",
+    "PRODUCTIVITY": "productivity_profile",
+    "MEDIA": "media_profile"
+  },
+  "profiles": {
+    "general_default": {
+      "name": "general_default",
+      "category": "GENERAL",
+      "sensitivity": {
+        "speed_multiplier": 1.0,
+        "precision_multiplier": 1.0,
+        "scroll_sensitivity": 1.0
+      },
+      "gesture_mappings": {
+        "LEFT_CLICK": "LEFT_CLICK",
+        "RIGHT_CLICK": "RIGHT_CLICK",
+        "DOUBLE_CLICK": "DOUBLE_CLICK",
+        "DRAG_START": "DRAG_START",
+        "SCROLL_UP": "SCROLL_UP",
+        "SCROLL_DOWN": "SCROLL_DOWN",
+        "ZOOM_IN": "ZOOM_IN",
+        "ZOOM_OUT": "ZOOM_OUT"
+      }
+    },
+    "browser_profile": {
+      "name": "browser_profile",
+      "category": "BROWSER",
+      "sensitivity": {
+        "speed_multiplier": 1.1,
+        "precision_multiplier": 1.0,
+        "scroll_sensitivity": 1.5
+      },
+      "gesture_mappings": {
+        "LEFT_CLICK": "LEFT_CLICK",
+        "RIGHT_CLICK": "RIGHT_CLICK",
+        "DOUBLE_CLICK": "DOUBLE_CLICK",
+        "DRAG_START": "DRAG_START",
+        "SCROLL_UP": "SCROLL_UP",
+        "SCROLL_DOWN": "SCROLL_DOWN",
+        "ZOOM_IN": "ZOOM_IN",
+        "ZOOM_OUT": "ZOOM_OUT"
+      }
+    },
+    "presentation_profile": {
+      "name": "presentation_profile",
+      "category": "PRESENTATION",
+      "sensitivity": {
+        "speed_multiplier": 0.9,
+        "precision_multiplier": 1.2,
+        "scroll_sensitivity": 1.0
+      },
+      "gesture_mappings": {
+        "LEFT_CLICK": "LEFT_CLICK",
+        "RIGHT_CLICK": "RIGHT_CLICK",
+        "DOUBLE_CLICK": "DOUBLE_CLICK",
+        "SCROLL_UP": "SCROLL_UP",
+        "SCROLL_DOWN": "SCROLL_DOWN"
+      }
+    },
+    "creative_profile": {
+      "name": "creative_profile",
+      "category": "CREATIVE",
+      "sensitivity": {
+        "speed_multiplier": 0.8,
+        "precision_multiplier": 2.0,
+        "scroll_sensitivity": 0.8
+      },
+      "gesture_mappings": {
+        "LEFT_CLICK": "LEFT_CLICK",
+        "RIGHT_CLICK": "RIGHT_CLICK",
+        "DOUBLE_CLICK": "DOUBLE_CLICK",
+        "DRAG_START": "DRAG_START",
+        "ZOOM_IN": "ZOOM_IN",
+        "ZOOM_OUT": "ZOOM_OUT"
+      }
+    },
+    "productivity_profile": {
+      "name": "productivity_profile",
+      "category": "PRODUCTIVITY",
+      "sensitivity": {
+        "speed_multiplier": 1.0,
+        "precision_multiplier": 1.1,
+        "scroll_sensitivity": 1.2
+      },
+      "gesture_mappings": {
+        "LEFT_CLICK": "LEFT_CLICK",
+        "RIGHT_CLICK": "RIGHT_CLICK",
+        "DOUBLE_CLICK": "DOUBLE_CLICK",
+        "DRAG_START": "DRAG_START",
+        "SCROLL_UP": "SCROLL_UP",
+        "SCROLL_DOWN": "SCROLL_DOWN"
+      }
+    },
+    "media_profile": {
+      "name": "media_profile",
+      "category": "MEDIA",
+      "sensitivity": {
+        "speed_multiplier": 1.0,
+        "precision_multiplier": 1.0,
+        "scroll_sensitivity": 2.0
+      },
+      "gesture_mappings": {
+        "LEFT_CLICK": "LEFT_CLICK",
+        "RIGHT_CLICK": "RIGHT_CLICK",
+        "DOUBLE_CLICK": "DOUBLE_CLICK",
+        "SCROLL_UP": "SCROLL_UP",
+        "SCROLL_DOWN": "SCROLL_DOWN"
+      }
+    }
+  }
+}

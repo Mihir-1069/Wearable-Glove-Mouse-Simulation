@@ -1,0 +1,3 @@
+"""
+Output Adapters Package Initializer.
+"""

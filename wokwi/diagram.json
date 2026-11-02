@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "author": "Antigravity HCI Team",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-mpu6050", "id": "mpu", "top": -120, "left": 150, "attrs": {} },
+    { "type": "wokwi-led", "id": "led", "top": 120, "left": 200, "attrs": { "color": "green" } },
+    { "type": "wokwi-resistor", "id": "r1", "top": 160, "left": 150, "attrs": { "value": "220" } },
+    { "type": "wokwi-pushbutton", "id": "btn", "top": 200, "left": 0, "attrs": { "color": "blue" } }
+  ],
+  "connections": [
+    [ "esp:GND.1", "mpu:GND", "black", [ "v0" ] ],
+    [ "esp:3V3", "mpu:VCC", "red", [ "v0" ] ],
+    [ "esp:21", "mpu:SDA", "green", [ "v0" ] ],
+    [ "esp:22", "mpu:SCL", "yellow", [ "v0" ] ],
+    [ "esp:2", "led:A", "green", [ "v0" ] ],
+    [ "led:K", "r1:1", "black", [ "v0" ] ],
+    [ "r1:2", "esp:GND.1", "black", [ "v0" ] ],
+    [ "esp:15", "btn:1.a", "blue", [ "v0" ] ],
+    [ "btn:2.a", "esp:GND.1", "black", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
